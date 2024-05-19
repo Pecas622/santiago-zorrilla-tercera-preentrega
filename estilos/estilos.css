@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: beige;
+  color: black;
+}
+
+header {
+  height: 200px;
+}
+header .logo,
+header .encabezado,
+header .bienvenida {
+  text-align: center;
+  background-color: grey;
+  color: white;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+header .encabezado {
+  font-family: "Dancing Script", cursive;
+  font-size: 2rem;
+}
+header .bienvenida {
+  font-family: "Merriweather", serif;
+  font-size: 1.5rem;
+}
+
+.navbar {
+  align-content: center;
+  background-color: grey;
+}
+.navbar .nav-link {
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.navbar .nav-link:hover {
+  background-color: #b3b3b3;
+  color: #e6e6e6;
+  transform: scale(1.05);
+}
+
+.jumbotron {
+  background-color: grey;
+  color: white;
+  padding: 2rem;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+
+.carrusel {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.suscribe {
+  margin-bottom: 20px;
+}
+
+.newsletter label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.newsletter .textoF {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+.newsletter .botonF {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #676767;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.newsletter .botonF:hover {
+  background-color: #4d4d4d;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card .card-body .card-text {
+  color: #ff6347;
+}
+.card-img-top {
+  transition: transform 0.3s ease-in-out;
+}
+.card .parrafoFooter {
+  margin-top: 1rem;
+}
+.card .iconos {
+  margin-top: 10px;
+}
+.card .iconos i {
+  margin: 0 5px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
